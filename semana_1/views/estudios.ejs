@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/curriculum.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <div class="container">
+        <%- include('templates/navbar');%>
+
+
+        <div class="perfil__container">
+                 
+            <div class="contact-info">
+                <h1>Estudios</h1>
+                <ul class="list__conatiner">
+                    
+                    <li><span>Bachillerato</span> Terminado </li>
+                    <li><span>Tecnico</span> Terminado </li>
+                    <li><span>Tecnologo</span> Aun no temrinado </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container__about">
+            <section>
+                <div class="about-me">
+                    <h1>Bachilletarto</h1>
+                    <p>
+                        Colegio General Santander
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="about-me">
+                    <h1>Tecnico</h1>
+                    <p>
+                        Tecnico en programacion de software -SENA
+                    </p>
+                </div>
+            </section>
+    
+            <section>
+                <div class="about-me">
+                    <h1>Tecnologo</h1>
+                    <p>
+                       Tecnologo en analisis y desarrollo de sistemas de informacion -SENA
+                    </p>
+                </div>
+            </section>
+        </div>
+        
+        <%- include('templates/footer');%>
+
+        
+    </div>
+
+    <script src="assets/js/cv.js"></script>
+</body>
+</html>

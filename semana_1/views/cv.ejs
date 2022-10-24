@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/curriculum.css">
+    <title>Curriculum Vitae</title>
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        <%- include('templates/navbar');%>
+
+
+        <div class="perfil__container">
+            <img src="assets/img/perfil_Daniel.jpg" alt="perfil">
+                 
+            <div class="contact-info">
+                <h1>Daniel Rodriguez</h1>
+                <ul class="list__conatiner">
+                    
+                    <li><span>Celular:</span> 3502868941 </li>
+                    <li><span>Direccion:</span> cll78 #2323123 </li>
+                    <li><span>Correo:</span> dangelsfocus@gmail.com </li>
+                    <li><span>Pais Origen:</span> Colombia </li>
+                    <li><span>Edad:</span> 17 </li>
+                </ul>
+            </div>
+        </div>
+
+        
+    <div class="container__about">
+        <section>
+            <div class="about-me">
+                <h1>Acerca de mi...</h1>
+                <p>
+                    Joven Programador, me gusta estudiar y aprender nuevas cosas.
+                    Amante de la tecnologia y el codigo
+                </p>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="about-me">
+                <h1>Portafolio</h1>
+                <a href="https://github.com/darocode">Github</a>
+                <a href="https://drive.google.com/drive/folders/13LSnnMKca-yTIYo1ptZ8Qrtl8Y6yOGg9?usp=sharing">Drive</a>
+                
+            </div>
+        </section>
+
+    </div>
+
+    <%- include('templates/footer');%>
+       
+        
+    </div>
+
+    <script src="assets/js/cv.js"></script>
+</body>
+</html>

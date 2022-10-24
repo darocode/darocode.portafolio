@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "engine": "^1.0.0",
+    "express": "^4.18.2",
+    "node": "^18.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit i",
+    "start": "node index.js",
+    "midom": "node index.js",
+    "dev": "nodemon --watch ./index.js"
+  },
+  "name": "app_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darocode/App_js.git"
+  },
+  "author": "Daniel Rodriguez the best software programer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darocode/App_js/issues"
+  },
+  "homepage": "https://github.com/darocode/App_js#readme",
+  "description": "Express js"
+}
